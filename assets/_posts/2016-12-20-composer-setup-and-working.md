@@ -28,29 +28,27 @@ Ultimately as a user, all you have to do is to create a `composer.json` file in 
 
 So let's get to the terminal directory project we established our directory.
 
-{% highlight bash %}
+```bash
 cd /var/www/html/symfony3-sandbox
-{% endhighlight %}
+```
 
 Composer can be installed with curl or php.
 
 With curl:
 
-{% highlight bash %}
+```bash
 curl -sS https://getcomposer.org/installer | php
-{% endhighlight %}
+```
 
 
-PHP:
-{% highlight bash %}
+```bash
 php -r "readfile('https://getcomposer.org/installer');" | php
 touch composer.json
-{% endhighlight %}
+```
 
 
 Open composer.json file and put below in the file.
-
-{% highlight json %}
+``` json
 {
         "require": {
             "symfony/validator":         "2.1.*",
@@ -60,12 +58,12 @@ Open composer.json file and put below in the file.
         },
         "minimum-stability": "dev"
 }
-{% endhighlight %}
+```
 
 then run
-{% highlight bash %}
+```bash
 $ php composer.phar install
-{% endhighlight %}
+```
 
 Now you will have `composer.json,` `composer.lock` and `composer.phar` file as well as a `vendor` directory has been created which should contain all dependencies – including composer itself.
 
