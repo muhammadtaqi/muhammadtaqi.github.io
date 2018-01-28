@@ -6,15 +6,18 @@ categories: programming
 keywords: python, programming paradigms
 comments: true
 ---
-Programming paradigms are simply the approach/modeling of your algorithms and data structures.
+# Programming Paradigms
 
-* Main programming paradigms
+> Programming paradigms are simply the approach/modeling of your algorithms and data structures.
+
+## Main programming paradigms;
+
   * _**Functional:**_ Programming with function calls that avoid any global state.
   * _**Imperative:**_ Programming with an explicit sequence of commands that update state.
   * _**Object-oriented:**_ Programming by defining objects that send messages to each other. Objects have their own internal (encapsulated) state and public interfaces. Object orientation can be
   * _**Procedural:**_ Imperative programming with procedure calls.
 
-* Other programming paradigms
+## Other programming paradigms;
 
   * _**Declarative:**_ Programming by specifying the result you want, not how to get it.
   * _**Structured:**_ Programming with clean, goto-free, nested control structures.
@@ -29,6 +32,15 @@ Programming paradigms are simply the approach/modeling of your algorithms and da
   * _**Array:**_ Programming with powerful array operators that usually make loops unnecessary.
 
 Paradigms are not meant to be mutually exclusive; a single program can feature multiple paradigms!.
+
+
+**An imperative approach (HOW):** I see that table located under the Gone Fishin’ sign is empty. My husband and I are going to walk over there and sit down.
+
+**A declarative approach (WHAT):** Table for two, please.
+
+The imperative approach is concerned with HOW you’re actually going to get a seat. You need to list out the steps to be able to show HOW you’re going to get a table.The declarative approach is more concerned with WHAT you want, a table for two.
+
+
 We will use `python` to explore and practice because
 > _**Python**_ is multi-paradigm language: it supports _**imperative, OO and functional**_ programming paradigms.
 
@@ -168,3 +180,6 @@ print(CreateSum.Sum)
 {% endhighlight %}
 
 ## 4. _procedural approach_ -->
+
+## Reference:
+1. [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/)
