@@ -49,12 +49,16 @@ _.'           `._   ;   \   /   ;   _,'           `._
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom style for this template -->
     <link href="css/narrow-jumbotron.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700|Ubuntu+Mono">
-    <style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <style>body, h1, h2, h3, h4, h5, h6 {font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;}  body p { font-weight:normal; }</style>
+
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700|Ubuntu+Mono">-->
+    <!--<style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>-->
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
@@ -69,6 +73,17 @@ _.'           `._   ;   \   /   ;   _,'           `._
         .color-black {
             color: #000 !important;
         }
+        /* other alignment things */
+
+        /* margins and stuff */
+
+
+        /* other alignment things */
+        img.align-center        { margin: 15px auto; display: block; }
+
+        /* latex math */
+        span.math img   { margin-bottom: -7px; }
+
     </style>
 </head>
 
@@ -91,18 +106,17 @@ _.'           `._   ;   \   /   ;   _,'           `._
     <div class="row">
         <div class="col-lg blog-main">
             <div class="blog-post">
-
-                <!--<h2 id='work' class="blog-post-title">Work</h2>-->
-                <p>Software Engineer at <a href='https://ciklum.com'>Ciklum</a> and there I’m responsible for “keeping the trains running” in our Micro-services Architecture.
-                    I like building software and data science tools that reveal insights about technologies and protocols!</p>
-                <ul>
-                    <li><a href="https://github.com/muhammadtaqi">GITHUB</a></li>
-                    <li><a href="https://www.linkedin.com/in/taqiofficial/">LINKEDIN</a></li>
-                    <li><a href="https://twitter.com/_muhammadtaqi">TWITTER</a></li>
-                    <li><a href="assets/pdf/muhammad-taqi-cv-2018-01-22.pdf">CURRICULUM VITAE</a> (PDF)</li>
-                </ul>
-
-                <p>In my free time I try to learn something, contribute to open source and go hiking.</p>
+                <div class="">
+                    <p>I'm Muhammad Taqi, a 25 year old Software Engineer based in Islamabad, PK. I love writing code, learning and building tools that reveal insights about technologies and protocols!</p>
+                    <p>I am currently a software engineer at <a href='https://ciklum.com'>Ciklum</a>. Prior to that I was engineer at <a href="#">Cogilent</a>. I also started the <a href="http://www.meetup.com/SFIslamabad">SF Islamabad</a> meetup, wrote the <a href="">AIMapper</a> iPhone app, and have launched fun little projects like <a href="#">ABC</a>.</p>
+                    <ul>
+                        <li><a href="https://github.com/muhammadtaqi">GITHUB</a></li>
+                        <li><a href="https://www.linkedin.com/in/taqiofficial/">LINKEDIN</a></li>
+                        <li><a href="https://twitter.com/_muhammadtaqi">TWITTER</a></li>
+                        <li><a href="assets/pdf/muhammad-taqi-cv-2018-01-22.pdf">CURRICULUM VITAE</a> (PDF)</li>
+                    </ul>
+                    <p>In my free time I <a href="travel.html">travel</a> and go hiking.</p>
+                </div>
 
                 <h3 id='publications'><a href='#publications' class="color-black ">Thoughts and Writings</a></h3>
                 <p><a href="https://medium.com/@muhammadtaqi" target="_blank">ALL POSTS</a></p>
@@ -165,16 +179,26 @@ _.'           `._   ;   \   /   ;   _,'           `._
 <!-- Footer -->
 <footer class="text-muted" style="margin-top: 100px;">
     <div class="container">
-        <a href="#">Back to top</a>
-        <p>&copy; 2017–2018 <a href="http://muhammadtaqi.com/">Muhammad Taqi</a>. All rights reserved.</p>
+        <div style="width: 500px; display: inline-block; padding-right: 10px;">
+            <a href="#">Back to top</a>
+            <p>&copy; 2017–2018 <a href="http://muhammadtaqi.com/">Muhammad Taqi</a>. All rights reserved.</p>
+        </div>
+        <div style="float: right;">
+            <a href="http://twitter.com/_muhammadtaqi">twitter.com/_muhammadtaqi</a><br>
+            <a href="https://github.com/muhammadtaqi">github.com/muhammadtaqi</a><br>
+        </div>
     </div>
+
 </footer>
+
+
+
 <!-- /Footer -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
