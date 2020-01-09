@@ -55,7 +55,17 @@ _.'           `._   ;   \   /   ;   _,'           `._
     <link href="css/narrow-jumbotron.css" rel="stylesheet">
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <style>body, h1, h2, h3, h4, h5, h6 {font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;}  body p { font-weight:normal; }</style>
+    <style>body, h1, h2, h3, h4, h5, h6 {font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;}  body p { font-weight:normal; }
+    ul.pretty {
+    list-style: disc;
+    margin: 4px 0 18px 40px;
+}
+ul.pretty li {
+    float: left;
+    width: 45%;
+    margin: 4px 0;
+}
+    </style>
 
     <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700|Ubuntu+Mono">-->
     <!--<style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>-->
@@ -93,11 +103,17 @@ _.'           `._   ;   \   /   ;   _,'           `._
 
     <center>
         <h1 class="color-black ">Muhammad Taqi Hassan</h1>
-        <div id='links'>
-            <a href="/">HOME</a> &bull;
-            <a href="https://www.github.com/muhammadtaqi">PROJECTS</a> &bull;
-            <a href="https://medium.com/@muhammadtaqi">B:LOG</a> &bull;
-            <a href="mailto:taqi.official@gmail.com&Subject=Coming%20from%20website&Body=Forwarded%20from%20muhammadtaqi.com" target="_blank">MAIL</a>
+        <div id='row text-center links'>
+            <a href="https://medium.com/@archtaqi">Blog</a> •
+            <a href="https://www.github.com/archtaqi">Github</a> •
+            <a href="https://www.twitter.com/archtaqi">Twitter</a> •
+            <a href="https://stackoverflow.com/users/2852807/muhammad-taqi">Stack Overflow</a> •
+            <a href="https://news.ycombinator.com/user?id=archtaqi">YC</a> •
+            <a href="https://www.facebook.com/archtaqi">FB</a> •
+            <a href="https://goodreads.com/archtaqi">Goodreads</a> •        
+            <a href="https://www.linkedin.com/in/archtaqi">LinkedIn</a> •
+            <a href="https://drive.google.com/file/d/1r89jiTJCGbyXLjTUnJHdoWDqUN3R6uV7/view?usp=sharing">Resume</a> •
+            <a href="mailto:taqi.arch@gmail.com" target="_blank">Mail</a>
         </div>
     </center>
 
@@ -107,31 +123,25 @@ _.'           `._   ;   \   /   ;   _,'           `._
         <div class="col-lg blog-main">
             <div class="blog-post">
                 <div class="">
-                    <p>I'm Muhammad Taqi, a 25 year old Software Engineer based in Islamabad, PK. I love writing code, learning and building tools that reveal insights about technologies and protocols!</p>
-                    <p>I am currently a software engineer at <a href='https://ciklum.com'>Ciklum</a>. Prior to that I was engineer at <a href="#">Cogilent</a>. 
-                        <!-- I also started the <a href="http://www.meetup.com/SFIslamabad">SF Islamabad</a> meetup, wrote the <a href="">AIMapper</a> iPhone app, and have launched fun little projects like <a href="#">ABC</a>. -->
+                    <h3 id='work'><a href='#work' class="color-black ">Work</a></h3>
+                    <p class="greeting">My name is Muhammad Taqi.</p>
+                    <p>I'm a <a href="https://github.com/archtaqi">software engineer</a> currently trying to build something new. I used to work at <a href="https://www.ciklum.com/">CIKLUM</a> and graduated from <a href="https://www.uaar.edu.pk/uiit">UIIT - PMAS Arid Agriculture University</a> with a degree in Computer Science.
                     </p>
-                    <ul>
-                        <li><a href="https://github.com/muhammadtaqi">GITHUB</a></li>
-                        <li><a href="https://www.linkedin.com/in/taqiofficial/">LINKEDIN</a></li>
-                        <li><a href="https://twitter.com/muhammadtaqi91">TWITTER</a></li>
-                        <li><a href="assets/pdf/muhammad-taqi-cv-2018-01-22.pdf">CURRICULUM VITAE</a> (PDF)</li>
+                    <p>I love writing code, learning and building tools that reveal insights about technologies and protocols. In my free time I often <a href="goodreads.com/archtaqi">reading and collecting</a> books, <a href="travel.html">travel</a>, <a href="travel.html">running and go hiking</a>.</p>
+                    <h3 id='publications'><a href='#publications' class="color-black ">Thoughts and Writings</a></h3>
+                    <p><a href="https://medium.com/@archtaqi" target="_blank">ALL POSTS</a></p>
+                    <ul id="publications_list">
+                        <li><a href='https://link.medium.com/huMhqa4j72' target="_blank">Google Calendar API in Your Application without Oauth Consent Screen</a></li>
+                        <li><a href='https://link.medium.com/VcN0X55j72' target="_blank">Notes FROM Amazon Innovate Online Conference — Global Edition 2019</a></li>
+                        <li><a href='https://link.medium.com/YoGO800j72' target="_blank">Writing THIN Controller, FAT model using Event Dispatcher in Symfony</a></li>
+                        <li><!-- <code class="">2016-09-18</code> -  --><a href='https://link.medium.com/RnCQuEWUZ2' target="_blank">Audit and Log Database DML Changes in PostgreSQL With Cyan Audit</a></li>
                     </ul>
-                    <p>In my free time I <a href="travel.html">travel</a> and go hiking.</p>
-                </div>
+                    <p></p>
 
-                <h3 id='publications'><a href='#publications' class="color-black ">Thoughts and Writings</a></h3>
-                <p><a href="https://medium.com/@muhammadtaqi" target="_blank">ALL POSTS</a></p>
-                <ul id="publications_list">
-                    <li><code class="">2017-12-28</code> - <a href='https://medium.com/@muhammadtaqi/composer-setup-and-its-working-8e73c4a6af06' target="_blank">Composer Setup and It’s working</a></li>
-                    <li><code class="">2016-09-18</code> - <a href='https://dzone.com/articles/audit-log-database-changes-in-postgresql' target="_blank">Audit and Log Database DML Changes in PostgreSQL With Cyan Audit</a></li>
-                </ul>
-
-                <p></p>
-
-                <h3 id='open'><a href='#open' class="color-black ">Open Source</a></h3>
-                <p>Most of my personal projects can be found on <a href="https://github.com/muhammadtaqi">Github</a> and in the <a href="/projects">Projects section</a>.
-                    Feel free to contact me with <a href="mailto:taqi.official@gmail.com">Email</a> or <a href="https://twitter.com/muhammadtaqi91" target="_blank">on Twitter</a>.</p>
+                    <h3 id='open'><a href='#open' class="color-black ">Open Source</a></h3>
+                    <p>Most of my personal projects can be found on <a href="https://github.com/ArchTaqi">Github</a> and in the <a href="/projects">Projects section</a>.
+                        Feel free to contact me through <a href="https://twitter.com/ArchTaqi" target="_blank">Twitter</a>, or privately through <a href="mailto:taqi.arch@gmail.com">email</a>.                   
+                    </p>
 
                 <!--<h3 id='projects' ><a href='#projects' class="color-black ">Projects</a></h3>-->
                 <!-- Challenge list -->
