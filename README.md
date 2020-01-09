@@ -1,10 +1,10 @@
-## Code behind [muhammadtaqi.com](http://muhammadtaqi.com)
+## Code behind [archtaqi.github.io](https://archtaqi.github.io/)
 
 ## Contact
 
-* Submit an [issue](https://github.com/muhammadtaqi/muhammadtaqi.github.io/issues)
-* [Twitter](https://twitter.com/_muhammadtaqi/)
-* taqi.official@gmail.com
+* Submit an [issue](https://github.com/archtaqi/archtaqi.github.io/issues)
+* [Twitter](https://twitter.com/archtaqi/)
+* taqi.arch@gmail.com
 
 ## License
 
